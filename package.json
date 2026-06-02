@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230307.0",
-    "@types/react": "^18.0.31",
+    "@types/react": "19.2.16",
     "typescript": "^5.0.2",
     "wrangler": "2.8.0"
   },
@@ -15,9 +15,13 @@
     "vercel-build": "next build"
   },
   "dependencies": {
-    "next": "16.1.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "reflare": "^1.1.1"
+    "next": "16.2.7",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.2.16"
+    }
   }
 }
